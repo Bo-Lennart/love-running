@@ -275,6 +275,43 @@ footer {
     }
 
     hr {
-        display: 0;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        height: 90%;
+        height: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+        float: left;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: left;
+        padding: 0 20px;
     }
 }
